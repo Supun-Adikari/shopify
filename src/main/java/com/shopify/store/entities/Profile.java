@@ -31,6 +31,12 @@ public class Profile {
 
 
     @Column(name="phone_number")
-    private String phone;
+    private String phoneNumber;
+
+    @Column(name="date_of_birth")
+    private String dateOfBirth;
+
+    @Column(name="loyalty_points")
+    private String loyaltyPoints;
     
 }
